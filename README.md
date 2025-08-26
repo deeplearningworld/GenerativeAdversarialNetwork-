@@ -1,12 +1,10 @@
 # GenerativeAdversarialNetwork-
 
 
-###GAN for Fashion Item Generation###
-This project demonstrates the use of a Generative Adversarial Network (GAN) to generate realistic, grayscale images of fashion items. The model is trained on the Fashion-MNIST dataset, a collection of 28x28 pixel images of clothing and accessories.
+# GAN for Fashion Item Generation
+This project demonstrates the use of a Generative Adversarial Network (GAN) to generate realistic, grayscale images of fashion items. The model is trained on the Fashion-MNIST dataset, a collection of 28x28 pixel images of clothing and accessories.The goal is to show a clear understanding of GAN architecture and the training process, resulting in a generator model capable of creating novel fashion designs from random noise.
 
-The goal is to show a clear understanding of GAN architecture and the training process, resulting in a generator model capable of creating novel fashion designs from random noise.
-
-Tech Stack:
+# Tech Stack:
 
 -Python
 
@@ -18,7 +16,7 @@ Tech Stack:
 
 -imageio (to create a training progress GIF)
 
-How It Works:
+# How It Works:
 
 The project consists of two main components:
 
@@ -29,6 +27,7 @@ Discriminator: A standard Convolutional Neural Network (CNN) that is trained to 
 These two networks are trained in an adversarial process, where the Generator gets better at creating images and the Discriminator gets better at spotting fakes.
 
 
-Results:
+# Results:
+
 -Increase the number of the epochs are necessary to improve the model performance with the applied dataset.
 -Requires a GPU or a more hours of training to obtain a better performance.
